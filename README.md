@@ -40,7 +40,7 @@ Our leaderboard, which is updated regularly, showcases both zero-shot and five-s
 #### Five-shot AO
 | Model            | General Historical Knowledge | Short Text Understanding | Long Text Understanding | Average |
 |------------------|------------------------------|--------------------------|-------------------------|---------|
-| GPT-4 Turbo      | 65.91                        | 58.07                    | 48.36                   | 57.45   |
+| GPT-4            | 65.91                        | 58.07                    | 48.36                   | 57.45   |
 | GPT-3.5 Turbo    | 53.99                        | 43.21                    | 36.40                   | 44.54   |
 | ERNIE-Bot 4.0    | 68.81                        | 57.62                    | 50.36                   | 58.93   |
 | ERNIE-Bot        | 68.81                        | 57.62                    | 50.36                   | 58.93   |
