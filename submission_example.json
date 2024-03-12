@@ -1,0 +1,67 @@
+{
+    "historical_facts": {
+        "0": "A",
+        "1": "D",
+        "2": "B"
+    },
+    "geography": {
+        "0": "C",
+        "1": "A",
+        "2": "D"
+    },
+    "social_customs": {
+        "0": "B",
+        "1": "D",
+        "2": "C"
+    },
+    "art_and_cultural_heritage": {
+        "0": "D",
+        "1": "A",
+        "2": "B"
+    },
+    "philosophy_and_religion": {
+        "0": "C",
+        "1": "A",
+        "2": "B"
+    },
+    "lexical_pragmatics_analysis": {
+        "0": "D",
+        "1": "B",
+        "2": "B"
+    },
+    "allusions_and_idioms": {
+        "0": "C",
+        "1": "D",
+        "2": "C"
+    },
+    "word_sense_disambiguation": {
+        "0": "A",
+        "1": "A",
+        "2": "C"
+    },
+    "translation": {
+        "0": "D",
+        "1": "C",
+        "2": "A"
+    },
+    "event_extraction": {
+        "0": "C",
+        "1": "A",
+        "2": "D"
+    },
+    "sentence_pauses": {
+        "0": "A",
+        "1": "B",
+        "2": "C"
+    },
+    "summarization_and_analysis": {
+        "0": "C",
+        "1": "A",
+        "2": "A"
+    },
+    "poetry_appreciation": {
+        "0": "C",
+        "1": "B",
+        "2": "B"
+    }
+}

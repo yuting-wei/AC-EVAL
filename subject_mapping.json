@@ -1,0 +1,67 @@
+{
+	"historical_facts": {
+		"English": "Historical Facts",
+		"Chinese": "历史史实",
+		"Supercategory": "General Historical Knowledge"
+	},
+	"geography": {
+		"English": "Geography",
+		"Chinese": "古代地理",
+		"Supercategory": "General Historical Knowledge"
+	},
+	"social_customs": {
+		"English": "Social Customs",
+		"Chinese": "社会生活习俗",
+		"Supercategory": "General Historical Knowledge"
+	},
+	"art_and_cultural_heritage": {
+		"English": "Art and Cultural Heritage",
+		"Chinese": "艺术和文化遗产",
+		"Supercategory": "General Historical Knowledge"
+	},
+	"philosophy_and_religion": {
+		"English": "Philosophy and Religion",
+		"Chinese": "哲学和宗教",
+		"Supercategory": "General Historical Knowledge"
+	},
+	"lexical_pragmatics_analysis": {
+		"English": "Lexical Pragmatics Analysis",
+		"Chinese": "词语语用分析",
+		"Supercategory": "Short Text Understanding"
+	},
+	"allusions_and_idioms": {
+		"English": "Allusions and Idioms",
+		"Chinese": "典故和成语理解",
+		"Supercategory": "Short Text Understanding"
+	},
+	"word_sense_disambiguation": {
+		"English": "Word Sense Disambiguation",
+		"Chinese": "词义消歧",
+		"Supercategory": "Short Text Understanding"
+	},
+	"translation": {
+		"English": "Translation",
+		"Chinese": "古文翻译",
+		"Supercategory": "Short Text Understanding"
+	},
+	"event_extraction": {
+		"English": "Event Extraction",
+		"Chinese": "事件抽取",
+		"Supercategory": "Short Text Understanding"
+	},
+	"sentence_pauses": {
+		"English": "Sentence Pauses",
+		"Chinese": "文本断句",
+		"Supercategory": "Long Text Understanding"
+	},
+	"summarization_and_analysis": {
+		"English": "Summarization and Analysis",
+		"Chinese": "文本概括和分析",
+		"Supercategory": "Long Text Understanding"
+	},
+	"poetry_appreciation": {
+		"English": "Poetry Appreciation",
+		"Chinese": "诗歌鉴赏",
+		"Supercategory": "Long Text Understanding"
+	}
+}
