@@ -252,4 +252,4 @@ Please cite our paper if you use our dataset.
 ```
 ## Acknowledgements
 
-This project was inspired by and heavily based on the structure of [C-Eval](https://github.com/hkust-nlp/ceval). I am grateful for this work and would like to acknowledge their significant contributions to the community.
+This project was inspired by and based on the structure of [C-Eval](https://github.com/hkust-nlp/ceval). We are grateful for this work and would like to acknowledge their significant contributions to the community.
