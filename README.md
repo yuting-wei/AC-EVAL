@@ -17,7 +17,7 @@ Our leaderboard, which is updated regularly, showcases both zero-shot and five-s
 
 #### Zero-shot AO
 | Model          | General Historical Knowledge | Short Text Understanding | Long Text Understanding | Average |
-|----------------|------------------------------|--------------------------|-------------------------|---------|
+|----------------|:----------------------------:|:------------------------:|:-----------------------:|:-------:|
 | ERNIE-Bot 4.0  | 77.54                        | 68.11                    | 66.42                   | 70.69   |
 | GLM-4          | 76.63                        | 66.66                    | 67.70                   | 70.33   |
 | Qwen-max       | 70.77                        | 64.88                    | 63.84                   | 67.50   |
@@ -34,11 +34,11 @@ Our leaderboard, which is updated regularly, showcases both zero-shot and five-s
 | ChatGLM3-6B    | 58.04                        | 43.01                    | 39.73                   | 46.93   |
 | Xunzi-Qwen-Chat| 60.20                        | 44.31                    | 30.87                   | 45.13   |
 | GPT-3.5 Turbo  | 53.50                        | 43.72                    | 36.94                   | 44.72   |
-| LLaMA2-70B      | 33.55                        | 36.29                    | 30.72                   | 33.54   |
+| LLaMA2-70B     | 33.55                        | 36.29                    | 30.72                   | 33.54   |
 
 #### Five-shot AO
 | Model            | General Historical Knowledge | Short Text Understanding | Long Text Understanding | Average |
-|------------------|------------------------------|--------------------------|-------------------------|---------|
+|------------------|:----------------------------:|:------------------------:|:-----------------------:|:-------:|
 | ERNIE-Bot 4.0    | 75.69                        | 69.59                    | 66.12                   | 70.47   |
 | GLM-4            | 74.89                        | 65.48                    | 69.07                   | 69.81   |
 | Qwen-max         | 75.29                        | 65.48                    | 66.99                   | 69.25   |
@@ -60,7 +60,7 @@ Our leaderboard, which is updated regularly, showcases both zero-shot and five-s
 
 #### Zero-shot COT
 | Model         | General Historical Knowledge | Short Text Understanding | Long Text Understanding | Average |
-|---------------|------------------------------|--------------------------|-------------------------|---------|
+|---------------|:----------------------------:|:------------------------:|:-----------------------:|:-------:|
 | Qwen-max      | 75.10                        | 66.72                    | 61.03                   | 67.62   |
 | Qwen-72B-Chat | 74.79                        | 65.25                    | 56.78                   | 65.61   |
 | Qwen-14B-Chat | 67.51                        | 54.64                    | 46.12                   | 56.09   |
@@ -68,7 +68,7 @@ Our leaderboard, which is updated regularly, showcases both zero-shot and five-s
 
 #### Five-shot COT
 | Model         | General Historical Knowledge | Short Text Understanding | Long Text Understanding | Average |
-|---------------|------------------------------|--------------------------|-------------------------|---------|
+|---------------|:----------------------------:|:------------------------:|:-----------------------:|:-------:|
 | Qwen-max      | 74.30                        | 65.94                    | 61.46                   | 67.23   |
 | Qwen-72B-Chat | 71.79                        | 61.62                    | 57.66                   | 63.69   |
 | Qwen-14B-Chat | 67.49                        | 51.51                    | 39.93                   | 52.97   |
