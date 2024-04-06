@@ -1,0 +1,10 @@
+python-dotenv
+pandas
+torch
+tqdm
+requests
+transformers
+modelscope
+dashscope
+openai
+zhipuai
