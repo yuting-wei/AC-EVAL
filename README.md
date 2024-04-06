@@ -218,7 +218,7 @@ You need to first prepare a UTF-8 encoded JSON file with the following format, p
 
 ## TODO
 
-- [ ] add evaluation code into `src`
+- [x] add evaluation code into `src`
 - [ ] add breakdown results
 - [ ] incorporate into Hugging Face datasets
 
