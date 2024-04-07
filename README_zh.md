@@ -80,16 +80,26 @@ AC-EVAL 提供了一个面向中国古代语言的大语言模型全面评估套
 ## 数据
 
 #### 下载
-您可以在`data`目录中找到dev数据集。如需访问test数据集，请联系邮箱(yuting_wei@bupt.edu.cn)。我们计划将该数据集上传至Hugging Face数据集中。
+* 方法一：下载zip压缩文件（您也可以直接用浏览器打开下面的链接）：
+  ```
+  wget https://huggingface.co/datasets/yuting-wei/aceval/resolve/main/aceval.zip
+  ```
+  然后可以使用 pandas加载数据：
+  ```python
+  import os
+  import pandas as pd
+  
+  File_Dir="aceval"
+  test_df=pd.read_csv(os.path.join(File_Dir,"test","art_and_cultural_heritage.csv"))
+  ```
 
-下载并解压缩 zip 文件，然后使用 pandas 加载数据：
-```python
-import os
-import pandas as pd
+* 方法二：使用[Hugging Face datasets](https://huggingface.co/datasets/yuting-wei/aceval)直接加载数据集。示例如下：
 
-File_Dir="data"
-test_df=pd.read_excel(os.path.join(File_Dir,"dev",".xlsx"))
-```
+  ```python
+  from datasets import load_dataset
+
+  dataset=load_dataset(r"yuting-wei/aceval",name="art_and_cultural_heritage")
+  ```
 
 #### 数据格式
 为了方便使用，我们整理了13个主题对应的类别和中英文名称。详情请参考[subject_mapping.json](https://github.com/yuting-wei/AC-EVAL/tree/main/subject_mapping.json)。格式如下：
@@ -113,7 +123,7 @@ test_df=pd.read_excel(os.path.join(File_Dir,"dev",".xlsx"))
 下面是 艺术和文化传承 的dev集示例：
 | 问题 | A | B | C | D | 答案 | 解析 |
 |----------|---|---|---|---|--------|-------------|
-| 五代南唐时期著名画家顾闳中的绘画名作是？|《女史箴图》 | 《五牛图》 | 《簪花仕女图》| 《韩熙载夜宴图》| D | 让我们逐步分析。顾闳中的绘画名作是《韩熙载夜宴图》。《五牛图》是韩滉的作品，《簪花仕女图》是周昉的作品，《女史箴图》是顾恺之的作品。 |
+| 五代南唐时期著名画家顾闳中的绘画名作是？|《女史箴图》 | 《五牛图》 | 《簪花仕女图》| 《韩熙载夜宴图》| D | 顾闳中的绘画名作是《韩熙载夜宴图》。《五牛图》是韩滉的作品，《簪花仕女图》是周昉的作品，《女史箴图》是顾恺之的作品。 |
 
 
 ## 如何在AC-EVAL上测试
@@ -217,7 +227,7 @@ D. {选项D}
 
 - [x] 在`src`种添加评估代码
 - [ ] 添加模型的细分结果
-- [ ] 集成到Hugging Face数据集
+- [x] 集成到Hugging Face数据集
 
 
 ## Licenses
