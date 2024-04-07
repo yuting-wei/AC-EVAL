@@ -79,16 +79,26 @@ Our leaderboard, which is updated regularly, showcases both zero-shot and five-s
 
 #### Download
 
-You can find the dev set available in the `data` directory. For access to the test dataset, please contact the provided email (yuting_wei@bupt.edu.cn). Subsequently, we plan to incorporate the dataset into Hugging Face datasets.
+- Method 1: Download the zip file (you can also simply open the following link with the browser):
+  ```
+  wget https://huggingface.co/datasets/yuting-wei/aceval/resolve/main/aceval.zip
+  ```
+  then unzip it and you may load the data with pandas:
+  ```python
+  import os
+  import pandas as pd
+  
+  File_Dir="aceval"
+  test_df=pd.read_csv(os.path.join(File_Dir,"test","art_and_cultural_heritage.csv"))
+  ```
 
-To download and unzip the zip file, then load the data with pandas, follow the instructions below:
-```python
-import os
-import pandas as pd
+- Method 2: Directly load the dataset using [Hugging Face datasets](https://huggingface.co/datasets/yuting-wei/aceval):
 
-File_Dir="data"
-test_df=pd.read_excel(os.path.join(File_Dir,"dev",".xlsx"))
-```
+  ```python
+  from datasets import load_dataset
+  
+  dataset=load_dataset(r"yuting-wei/aceval",name="art_and_cultural_heritage")
+  ```
 
 #### Data Format
 
@@ -115,7 +125,7 @@ Each subject consists of two splits: dev and test.  The dev set per subject cons
 Below is a dev example from art and cultural heritage:
 | Question | A | B | C | D | Answer | Explanation |
 |----------|---|---|---|---|--------|-------------|
-| 五代南唐时期著名画家顾闳中的绘画名作是？(The famous painting masterpiece of Gu Hongzhong, a famous painter in the Southern Tang Dynasty during the Five Dynasties, is?) |《女史箴图》(Admonitions of the Instructress to the Court Ladies) | 《五牛图》(Five Buffaloes) | 《簪花仕女图》(Ladies with Flowers) | 《韩熙载夜宴图》(Han Xizai Giving a Night Banquet) | D | 让我们逐步分析。顾闳中的绘画名作是《韩熙载夜宴图》。《五牛图》是韩滉的作品，《簪花仕女图》是周昉的作品，《女史箴图》是顾恺之的作品。 (Let‘s analyze step by step. The famous painting by Gu Hongzhong is 'Han Xizai Giving a Night Banquet.' 'Five Buffaloes' is a work by Han Huang, 'Ladies with Flowers' is by Zhou Fang, and 'Admonitions of the Instructress to the Court Ladies' is by Gu Kaizhi.) |
+| 五代南唐时期著名画家顾闳中的绘画名作是？(The famous painting masterpiece of Gu Hongzhong, a famous painter in the Southern Tang Dynasty during the Five Dynasties, is?) |《女史箴图》(Admonitions of the Instructress to the Court Ladies) | 《五牛图》(Five Buffaloes) | 《簪花仕女图》(Ladies with Flowers) | 《韩熙载夜宴图》(Han Xizai Giving a Night Banquet) | D | 顾闳中的绘画名作是《韩熙载夜宴图》。《五牛图》是韩滉的作品，《簪花仕女图》是周昉的作品，《女史箴图》是顾恺之的作品。 (The famous painting by Gu Hongzhong is 'Han Xizai Giving a Night Banquet.' 'Five Buffaloes' is a work by Han Huang, 'Ladies with Flowers' is by Zhou Fang, and 'Admonitions of the Instructress to the Court Ladies' is by Gu Kaizhi.) |
 
 
 ## How to Evaluate on AC-EVAL
@@ -220,7 +230,7 @@ You need to first prepare a UTF-8 encoded JSON file with the following format, p
 
 - [x] add evaluation code into `src`
 - [ ] add breakdown results
-- [ ] incorporate into Hugging Face datasets
+- [x] incorporate into Hugging Face datasets
 
 
 ## Licenses
