@@ -13,7 +13,7 @@ Our aim is to facilitate the assessment of LLMs' capabilities in understanding a
 
 
 ## Leaderboard
-Our leaderboard, which is updated regularly, showcases both zero-shot and five-shot accuracies of various models across two distinct settings: Answer-Only (AO) and Chain-of-Thought (COT).
+Our leaderboard, which is updated regularly, showcases both zero-shot and five-shot accuracies of various models across two distinct settings: Answer-Only (AO) and Chain-of-Thought (COT). The breakdown results are shown in [breakdown_results.xlsx](https://github.com/yuting-wei/AC-EVAL/tree/main/breakdown_results.xlsx)
 
 #### Zero-shot AO
 | Model          | General Historical Knowledge | Short Text Understanding | Long Text Understanding | Average |
@@ -25,8 +25,8 @@ Our leaderboard, which is updated regularly, showcases both zero-shot and five-s
 | Qwen-72B-Chat  | 71.25                        | 61.48                    | 59.80                   | 64.18   |
 | Yi-34B-Chat    | 72.66                        | 61.33                    | 58.36                   | 64.12   |
 | Qwen-14B-Chat  | 69.51                        | 56.53                    | 57.38                   | 61.14   |
+| ERNIE-Bot      | 68.81                        | 57.80                    | 51.47                   | 59.36   |
 | GPT-4          | 66.11                        | 55.11                    | 47.38                   | 56.20   |
-| ERNIE-Bot      | 57.80                        | 51.81                    | 51.47                   | 53.69   |
 | Qwen-7B-Chat   | 62.74                        | 48.76                    | 44.97                   | 52.16   |
 | Yi-6B-Chat     | 60.70                        | 47.79                    | 39.49                   | 51.33   |
 | Baichuan2-7B-Chat | 64.38                    | 46.77                    | 40.33                   | 50.49   |
@@ -137,7 +137,7 @@ We use the following prompt when evaluating the models:
 #### answer-only prompt
 ##### Zero-shot AO
 ```
-以下是中国古代{主题}领域的单项选择题，请直接给出正确答案对应的选项字母。
+以下是中国古代{主题}领域的单项选择题，请直接给出正确答案对应的选项。
 
 {测试题目}
 A. {选项A}
@@ -149,7 +149,7 @@ D. {选项D}
 
 ##### Few-shot AO
 ```
-以下是中国古代{主题}领域的单项选择题示例。在查看这些示例之后，请直接给出接下来一道题目的正确答案所对应的选项字母。
+以下是中国古代{主题}领域的单项选择题示例。在查看这些示例之后，请直接给出接下来一道题目的正确答案所对应的选项。
 
 示例1：{题目1}
 A. {选项A}
@@ -182,7 +182,7 @@ D. {选项D}
 ```
 ##### Few-shot COT
 ```
-以下是中国古代{主题}领域的单项选择题示例。在查看这些示例之后，请逐步分析接下来一道题目并给出正确答案所对应的选项字母。
+以下是中国古代{主题}领域的单项选择题示例。在查看这些示例之后，请逐步分析接下来一道题目并给出正确答案所对应的选项。
 
 示例1：{题目1}
 A. {选项A}
@@ -229,7 +229,7 @@ You need to first prepare a UTF-8 encoded JSON file with the following format, p
 ## TODO
 
 - [x] add evaluation code into `src`
-- [ ] add breakdown results
+- [x] add breakdown results
 - [x] incorporate into Hugging Face datasets
 
 
