@@ -1,7 +1,7 @@
 <p align="center"> <img src="resources/title.png" style="width: 100%;" id="title-icon">       </p>
 
 <p align="center">
-  ⏬ <a href="#data" target="_blank">数据</a> •   📃 <a href="http://arxiv.org/abs/2403.06574" target="_blank">论文</a>  •   🏆 <a href="https://github.com/yuting-wei/AC-EVAL/tree/main/#leaderboard" target="_blank">排行榜</a>  <br>  <a href="https://github.com/yuting-wei/AC-EVAL/tree/main/README_zh.md">   中文</a> | <a href="https://github.com/yuting-wei/AC-EVAL/tree/main/README.md">English 
+  ⏬ <a href="#data" target="_blank">数据</a> •   📃 <a href="https://aclanthology.org/2024.findings-emnlp.87" target="_blank">论文</a>  •   🏆 <a href="https://github.com/yuting-wei/AC-EVAL/tree/main/#leaderboard" target="_blank">排行榜</a>  <br>  <a href="https://github.com/yuting-wei/AC-EVAL/tree/main/README_zh.md">   中文</a> | <a href="https://github.com/yuting-wei/AC-EVAL/tree/main/README.md">English 
 </p>
 
 
