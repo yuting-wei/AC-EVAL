@@ -5,7 +5,7 @@
 </p>
 
 
-AC-EVAL presents a thorough evaluation suite for Large Language Models (LLMs) focusing on ancient Chinese, covering eras from the Pre-Qin period to the Qing dynasty. This suite includes 3245 multi-choice questions across 3 levels of difficulty and 13 diverse tasks, as shown below. Please check our [paper](http://arxiv.org/abs/2403.06574) for more details. 
+AC-EVAL presents a thorough evaluation suite for Large Language Models (LLMs) focusing on ancient Chinese, covering eras from the Pre-Qin period to the Qing dynasty. This suite includes 3245 multi-choice questions across 3 levels of difficulty and 13 diverse tasks, as shown below. Please check our [paper](https://aclanthology.org/2024.findings-emnlp.87) for more details. 
 
 <img src="resources/overview.png" style="zoom: 80%;" >
 
