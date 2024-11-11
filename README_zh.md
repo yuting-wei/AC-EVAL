@@ -245,13 +245,14 @@ AC-EVAL数据集遵循 [Creative Commons Attribution-NonCommercial-ShareAlike 4.
 
 如果您使用了我们的数据集，请引用我们的论文。
 ```
-@misc{wei2024aceval,
-      title={AC-EVAL: Evaluating Ancient Chinese Language Understanding in Large Language Models}, 
-      author={Yuting Wei and Yuanxing Xu and Xinru Wei and Simin Yang and Yangfu Zhu and Yuqing Li and Di Liu and Bin Wu},
-      year={2024},
-      eprint={2403.06574},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{wei-etal-2024-ac,
+    title = "{AC}-{EVAL}: Evaluating {A}ncient {C}hinese Language Understanding in Large Language Models",
+    author = "Wei, Yuting  and Xu, Yuanxing  and Wei, Xinru  and Yang, Simin  and Zhu, Yangfu  and Li, Yuqing  and Liu, Di  and Wu, Bin",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    year = "2024",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.87",
+    pages = "1600--1617",
 }
 
 ```
