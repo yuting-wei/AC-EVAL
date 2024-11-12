@@ -200,7 +200,7 @@ D. {选项D}
 答案：
 ```
 
-## 如何
+## 如何提交
 
 您首先需要准备一个 UTF-8 编码的 JSON 文件，并按照以下格式编写。详情请参考[submission_example.json](https://github.com/yuting-wei/AC-EVAL/tree/main/submission_example.json)。
 
